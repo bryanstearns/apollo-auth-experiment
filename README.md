@@ -1,4 +1,4 @@
-I'm working on building an authentication mechanism over graphql, and I'm trying to figure out why a graphql-connected component isn't refereshing. This is a stripped-down example that exhibits the problem I'm seeing.
+I'm working on building an authentication mechanism over graphql, and I'm trying to figure out why a graphql-connected component isn't refereshing. This is a stripped-down example that exhibits the problem I'm seeing. *Good news, everyone!* I posted (this question on StackOverflow](https://stackoverflow.com/questions/45991457/apollo-graphql-connected-react-component-isnt-rerendering) and got an answer, so this problem is fixed!
 
 * You can try this out here: https://m4nlpp86j.codesandbox.io/ (ideally in a browser with the Redux DevTools Extension installed)
 * You can mess with the sources live here: https://codesandbox.io/s/m4nlpp86j -- your edits will be your own because CodeSandbox will fork it when you first edit. I suggest you try out your changes by opening your forked URL (from the embedded browser page) in a different browser window, because CodeSandbox's editing stuff seems to interact poorly with Chrome's debugger and/or Redux DevTools)
